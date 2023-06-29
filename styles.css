@@ -1,0 +1,148 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+header{
+    margin: 47px 0 130px 42px;
+
+}
+
+.link-header{
+    margin: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.button-header{
+    height: 51px;
+    width: 124px;    
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+section{
+    display: inline-block;
+    width: 500px;
+    margin-left: 84px;
+}
+
+.image-logo{
+    display: inline-block;
+    margin-left: 121px;
+
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.button-learn-more{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px){
+   .link-header{
+    display: none;
+
+   }
+
+   .button-header{
+    top: -18px;
+    position: relative;
+
+   }
+
+   section{
+    margin: 40px;
+
+   }
+
+   .image-logo{
+    margin: 0;
+    padding: 0;
+    width: 451px;
+    height: 424px;
+    position: absolute;
+    top: 560px;
+    margin: 55px;
+
+   }
+
+   header{
+    margin-left: 400px;
+    margin-bottom: 30px;
+   }
+
+   h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: auto;
+    position: relative;
+    top: 60px;
+
+   }
+
+   p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    width: auto;
+    position: relative;
+    top: 37px;
+    text-align: center;
+
+   }
+
+   .button-learn-more{
+    margin: 0 auto;
+    display: block;
+
+   }
+}
